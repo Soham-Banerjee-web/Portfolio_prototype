@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Soham Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <script>
+    history.scrollRestoration = "manual";
+    window.scrollTo(0, 0);
+  </script>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#scene1">About</a></li>
+      <li><a href="#scene2">Adventure</a></li>
+      <li><a href="#scene3">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sections -->
+  <section class="section" id="scene1">
+    <div class="section-bg" style="background-image: url('./assets/bg1.jpg');"></div>
+    <div class="section-content">
+      <h1 class="hover-line">Hi, I'm Soham — A Builder of Ideas</h1>
+      <p class="hover-line">I love building beautiful, responsive web experiences. Whether it's AI or the cloud, I build to solve real problems.</p>
+    </div>
+  </section>
+
+  <section class="section" id="scene2">
+    <div class="section-bg" style="background-image: url('./assets/bg2.jpg');"></div>
+    <div class="section-content">
+      <h1 class="hover-line">Beyond Code: I Ride Into the Unknown</h1>
+      <p class="hover-line">Off the grid, into the wild — I explore, ride, and live curiously. My bike is my second brain.</p>
+    </div>
+  </section>
+
+<section class="section" id="scene3">
+  <div class="section-content">
+    <h1 class="hover-line">Explore My Projects</h1>
+    <p class="hover-line">These are a few of the digital products I’ve brought to life.</p>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="./assets/project1.jpg" alt="Project 1">
+        <h2 class="hover-line">AI Therapist Bot</h2>
+        <p class="hover-line">A conversational agent for mental health check-ins using NLP.</p>
+        <a class="btn" href="#">🔗 View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="./assets/project2.jpg" alt="Project 2">
+        <h2 class="hover-line">3D Portfolio Website</h2>
+        <p class="hover-line">A scroll-animated, Three.js-powered personal branding site.</p>
+        <a class="btn" href="#">🔗 View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="./assets/project3.jpg" alt="Project 3">
+        <h2 class="hover-line">Supply Chain Fraud Detector</h2>
+        <p class="hover-line">Built for IBM Hackathon using anomaly detection on trade data.</p>
+        <a class="btn" href="#">🔗 View Project</a>
+      </div>
+    </div>
+    <a class="btn" href="./assets/Soham_Resume.pdf" download style="margin-top: 1rem;">📄 Download Resume</a>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="contact-container">
+    <h2 class="hover-line">Let's Connect</h2>
+    <p class="hover-line">Have a project idea or just want to say hi? I’d love to hear from you.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" disabled>Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Soham Banerjee. All rights reserved.</p>
+  <div class="social-links">
+    <a href="https://github.com/Soham-Banerjee-web">GitHub</a>
+    <a href="https://linkedin.com/in/soham-banerjee-aaa466202">LinkedIn</a>
+    <a href="#">Email</a>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <div class="cursor-highlight"></div>
+</body>
+</html>
