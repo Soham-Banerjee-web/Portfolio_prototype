@@ -13,3 +13,12 @@ A prototype of my portfolio design. I might not use this design in my own portfo
 
 📱 Mobile-Ready: Built with flexibility for various screen sizes.
 
+
+📦 portfolio/
+ ┣ 📜 index.html
+ ┣ 📜 style.css
+ ┣ 📜 script.js
+ ┣ 📁 assets/
+ ┃ ┣ 📷 bg1.jpg, bg2.jpg, ...
+ ┃ ┣ 📄 Soham_Resume.pdf
+
