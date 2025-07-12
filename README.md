@@ -22,3 +22,5 @@ A prototype of my portfolio design. I might not use this design in my own portfo
  ┃ ┣ 📷 bg1.jpg, bg2.jpg, ...
  ┃ ┣ 📄 Soham_Resume.pdf
 
+![GitHub followers](https://img.shields.io/github/followers/Soham-Banerjee-web?style=social)
+![Profile views](https://komarev.com/ghpvc/?username=Soham-Banerjee-web&style=flat-square)
