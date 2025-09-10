@@ -15,12 +15,17 @@ A prototype of my portfolio design. I might not use this design in my own portfo
 
 
 📦 portfolio/
+
  ┣ 📜 index.html
  
  ┣ 📜 style.css
+ 
  ┣ 📜 script.js
+ 
  ┣ 📁 assets/
+ 
  ┃ ┣ 📷 bg1.jpg, bg2.jpg, ...
+ 
  ┃ ┣ 📄 Soham_Resume.pdf
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub followers](https://img.shields.io/github/followers/Soham-Banerjee-web?style=social)
