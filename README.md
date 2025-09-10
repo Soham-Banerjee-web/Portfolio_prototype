@@ -16,6 +16,7 @@ A prototype of my portfolio design. I might not use this design in my own portfo
 
 📦 portfolio/
  ┣ 📜 index.html
+ 
  ┣ 📜 style.css
  ┣ 📜 script.js
  ┣ 📁 assets/
